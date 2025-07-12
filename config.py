@@ -38,8 +38,8 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/ig_mentor")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/693d6cacfd107548f1fc4-98841b25c21f252ec9.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/693d6cacfd107548f1fc4-98841b25c21f252ec9.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/79ce230b9cde527d7087b-8fc300a5949ebdda03.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/79ce230b9cde527d7087b-8fc300a5949ebdda03.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "bharatlinks.com")
