@@ -18,20 +18,20 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8102350247:AAHpvrfiKcpsiCAzzhDIHgIGJv1b9xM0R2s")
-APP_ID = int(os.environ.get("APP_ID", "22994386")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "f0df608144a804dfad6f5d318e7e6465") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7879527977:AAFTdCq05mTAP_UsyJTX3VBsE4ACXwiwQS8")
+APP_ID = int(os.environ.get("APP_ID", "11642776")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "19052626403c09412865b02b435a4138") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002589128581")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "ig_mentor") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "6106604771")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002606097254")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "masterteddy07") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "1981178146")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
 
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://amandahiya168:AydWzW0JEhKscBWO@cluster0.0ezj6nl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://purushseva:x1EMxzK2lJUtXURV@cluster0.dtupklu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
@@ -42,8 +42,8 @@ START_PIC = os.environ.get("START_PIC", "https://graph.org/file/693d6cacfd107548
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/693d6cacfd107548f1fc4-98841b25c21f252ec9.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "bharatlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "5fa07641bea52058f7ecb7d387ae83c969207273")
 TUT_VID = os.environ.get("TUT_VID","")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
